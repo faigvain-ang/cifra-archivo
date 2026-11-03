@@ -1,0 +1,34 @@
+{
+  "repo": "cifra-archivo",
+  "hostname": "blog.findfindata.com",
+  "brand": "Cifra & Archivo",
+  "theme": "journal",
+  "mark": "C/A",
+  "color": "#452b24",
+  "en": {
+    "eyebrow": "A PRACTICAL FINANCE & DOCUMENT JOURNAL",
+    "title": "Between a number and its source.",
+    "intro": "Working notes on the handoffs: a table becomes a file, a file becomes a check, and a page image helps someone else follow the trail.",
+    "description": "Original cross-tool practice notes for financial document work: local tables, cash-flow checks and review packets.",
+    "panel_title": "Three small tools. One clear handoff.",
+    "panel_intro": "This journal connects distinct local tools without pretending they form an automatic financial-analysis pipeline.",
+    "panel_body": "<p><a href=\"https://filings.findfindata.com/en/\">Cashflow Fieldnotes</a> / exact-decimal reconciliation<br><a href=\"https://markdown.findfindata.com/en/\">Table Workshop</a> / Markdown-to-CSV export<br><a href=\"https://pdf.findfindata.com/en/\">Page Image Notes</a> / selected PDF page images</p>",
+    "about": "<p>Cifra & Archivo is a practical journal maintained under <strong>faigvain-ang</strong>. The same team develops the three associated open-source tools and related Eqvero, KolmoPDF and KomoPDF ecosystem work. These are not unrelated reviewers recommending each other.</p><p>Our scope is the manual handoff between document formats and financial checks. <a href=\"https://eqvero.com/\">Eqvero</a> supports public-filing research; <a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF</a> provides cloud document conversion; <a href=\"https://komopdf.com/\">KomoPDF</a> provides local-first PDF editing and annotation. Those are different products with different capabilities and data handling. The three small local CLIs are separate open-source projects, not substitutes for every product feature.</p>",
+    "notes_label": "Field notes",
+    "source_label": "Get the code on GitHub →",
+    "about_description": "Maintenance, product relationships and data handling at Cifra & Archivo."
+  },
+  "es": {
+    "eyebrow": "CUADERNO PRÁCTICO DE FINANZAS Y DOCUMENTOS",
+    "title": "Entre una cifra y su fuente.",
+    "intro": "Notas sobre los traspasos: una tabla se vuelve archivo, el archivo se convierte en comprobación y una imagen ayuda a otra persona a seguir el recorrido.",
+    "description": "Prácticas originales entre herramientas para documentos financieros: tablas locales, conciliación y expedientes de revisión.",
+    "panel_title": "Tres herramientas. Un traspaso claro.",
+    "panel_intro": "Este cuaderno conecta herramientas locales distintas sin presentarlas como una cadena automática de análisis financiero.",
+    "panel_body": "<p><a href=\"https://filings.findfindata.com/es/\">Cashflow Fieldnotes</a> / conciliación decimal exacta<br><a href=\"https://markdown.findfindata.com/es/\">Table Workshop</a> / exportación de Markdown a CSV<br><a href=\"https://pdf.findfindata.com/es/\">Page Image Notes</a> / imágenes de páginas PDF seleccionadas</p>",
+    "about": "<p>Cifra & Archivo es un cuaderno práctico mantenido bajo <strong>faigvain-ang</strong>. El mismo equipo desarrolla las tres herramientas abiertas asociadas y trabajo relacionado con Eqvero, KolmoPDF y KomoPDF. No somos críticos ajenos que se recomiendan mutuamente.</p><p>Nos centramos en el traspaso manual entre formatos y comprobaciones financieras. <a href=\"https://eqvero.com/\">Eqvero</a> sirve para investigar información pública; <a href=\"https://www.kolmopdf.com/pdf-to-markdown\">KolmoPDF</a> convierte documentos en la nube; <a href=\"https://komopdf.com/\">KomoPDF</a> permite editar y anotar PDF con prioridad local. Son productos diferentes, con capacidades y tratamiento de datos distintos. Los tres CLI pequeños son proyectos abiertos independientes, no sustitutos de todas las funciones de esos productos.</p>",
+    "notes_label": "Notas prácticas",
+    "source_label": "Código en GitHub →",
+    "about_description": "Mantenimiento, relación con productos y tratamiento de datos en Cifra & Archivo."
+  }
+}
