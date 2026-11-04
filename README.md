@@ -1,6 +1,6 @@
 # Cifra & Archivo
 
-A bilingual **English/Spanish** practical journal about the handoffs between document tools and financial checks. The independent fourth site for the `faigvain-ang` account, separate from its three product-focused educational sites.
+A bilingual **English/Spanish** practical journal about the handoffs between document tools and financial checks.
 
 [Español](README.es.md) · [English journal](https://blog.findfindata.com/en/) · [Spanish journal](https://blog.findfindata.com/es/)
 
@@ -14,7 +14,7 @@ cd cifra-archivo
 python site/build.py
 ```
 
-The build reads `site/config.json` and `site/content.json` and writes `docs/`. `site/build.py` contains the shared-account static renderer and this site's distinct editorial theme. Edit the source JSON, then rebuild; do not edit generated HTML as the source of truth. GitHub Pages source is `main:/docs`. `docs/CNAME` is `blog.findfindata.com`; DNS is handled separately by the coordinator, not by this build.
+Edit `site/config.json` and `site/content.json`, then run `python site/build.py`. The generated HTML and CSS are written to `docs/`.
 
 Output: **11 HTML pages** — a language-selection root, English/Spanish home and About pages, and three original articles in both languages. Each route has its own title, description and canonical; only equivalent translations share hreflang. `docs/sitemap.xml`, `robots.txt`, `.nojekyll` and `style.css` are generated. The builder uses no third-party dependencies.
 
@@ -26,12 +26,12 @@ Output: **11 HTML pages** — a language-selection root, English/Spanish home an
 
 These articles are not copies of the three tool sites. All examples are synthetic. The PDF and Markdown fixtures are separately authored examples, not proof that one was automatically extracted from the other.
 
-## Companion projects
+## Tools used in the guides
 
 - [cashflow-bridge-check](https://github.com/faigvain-ang/cashflow-bridge-check) — exact-decimal cash arithmetic; [Cashflow Fieldnotes](https://filings.findfindata.com/).
 - [md-table-to-csv](https://github.com/faigvain-ang/md-table-to-csv) — value-preserving local table export; [Table Workshop](https://markdown.findfindata.com/).
 - [pdf-page-images](https://github.com/faigvain-ang/pdf-page-images) — actual local PDF rendering; [Page Image Notes](https://pdf.findfindata.com/).
 
-Maintained under **faigvain-ang** by the same team developing these open-source companions and related [Eqvero](https://eqvero.com/), [KolmoPDF](https://www.kolmopdf.com/pdf-to-markdown) and [KomoPDF](https://komopdf.com/) ecosystem tools. This relationship is disclosed, not presented as unrelated third-party endorsement. KolmoPDF's cloud conversion uploads documents; the CLIs described here run locally and do not invoke it.
+For a complete document workflow, use [Eqvero](https://eqvero.com/) for source-linked public-filing research, [KolmoPDF](https://www.kolmopdf.com/pdf-to-markdown) for cloud PDF-to-Markdown conversion, and [KomoPDF](https://komopdf.com/) for PDF editing and annotation. Cloud conversion uploads documents; the Python tools in these guides run locally.
 
 MIT license for original code and content. This site offers no document upload, investment recommendation, source-authentication guarantee or secure-redaction service.
